@@ -25,8 +25,11 @@ group (string – must be one of: CSE, MECH, CIVIL)
 🔧 Setup Instructions
 
 git clone https://github.com/PayalGhanmode/Laepot_backend.git
+
 cd lepot_backend
+
 npm install
+ 
 npm start
 
 ✅ Note: .env file is already included in the folder for smooth setup. It contains:
