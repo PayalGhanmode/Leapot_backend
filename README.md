@@ -1,8 +1,11 @@
 ﻿# Leapot_backend
+ 
 📘 Description
+
 A RESTful API built with Node.js, Express, and MongoDB for managing users with full CRUD operations and advanced filtering by multiple fields (email, firstName, lastName, group, etc.).
 
 🚀 Features
+
 Add, update, delete, and fetch users
 
 Filter users by firstName, lastName, email, and group
@@ -12,6 +15,7 @@ Assign users to predefined groups: CSE, MECH, CIVIL
 Tested and verified using Postman
 
 🧾 User Fields
+
 Users can be added using the following parameters:
 
 firstName (string)
@@ -26,7 +30,7 @@ group (string – must be one of: CSE, MECH, CIVIL)
 
 git clone https://github.com/PayalGhanmode/Laepot_backend.git
 
-cd lepot_backend
+cd Leapot_backend
 
 npm install
  
@@ -36,6 +40,7 @@ npm start
 
 
 📮 API Endpoints
+
 Method	Endpoint	Description
 
 POST	/users	Create a new user
